@@ -50,6 +50,12 @@ dependencies:
   '@tarojs/taro':
     specifier: 3.6.22
     version: 3.6.22(@types/react@18.2.46)(postcss@8.4.32)
+  chanhooks:
+    specifier: 1.0.0-alpha.5
+    version: 1.0.0-alpha.5
+  lodash:
+    specifier: ^4.17.21
+    version: 4.17.21
   react:
     specifier: ^18.0.0
     version: 18.2.0
@@ -79,6 +85,9 @@ devDependencies:
   '@types/jest':
     specifier: ^29.3.1
     version: 29.5.11
+  '@types/lodash':
+    specifier: ^4.14.202
+    version: 4.14.202
   '@types/node':
     specifier: ^18.15.11
     version: 18.19.4
@@ -4854,6 +4863,13 @@ packages:
       sentence-case: 3.0.4
       snake-case: 3.0.4
       tslib: 2.6.2
+
+  /chanhooks@1.0.0-alpha.5:
+    resolution: {integrity: sha512-mduo0LDVE2i/YqNXwlJP4hrXLsDd8TgrqlrZz2n7UvhnzR0mLrU7Vvgd0SQ961VKBXFuQM9gzezvHzPaaMGVyQ==}
+    dependencies:
+      lodash: 4.17.21
+      react: 18.2.0
+    dev: false
 
   /char-regex@1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}

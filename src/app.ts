@@ -1,15 +1,18 @@
-import { PropsWithChildren } from 'react'
-import { useLaunch } from '@tarojs/taro'
-import './app.scss'
+import { PropsWithChildren } from 'react';
+import { useLaunch } from '@tarojs/taro';
+import _ from 'lodash';
+import './app.scss';
+
+window._ = _;
 
 function App({ children }: PropsWithChildren<any>) {
 
   useLaunch(() => {
-    console.log('App launched.')
-  })
+    console.log('App launched.');
+  });
 
   // children 是将要会渲染的页面
-  return children
+  return children;
 }
 
-export default App
+export default App;
