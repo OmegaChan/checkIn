@@ -1,6 +1,9 @@
 import { PropsWithChildren } from 'react';
 import { useLaunch } from '@tarojs/taro';
+import _ from 'lodash';
 import './app.scss';
+
+window._ = _;
 
 function App({ children }: PropsWithChildren<any>) {
 
