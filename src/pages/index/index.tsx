@@ -1,13 +1,12 @@
-import { View, Image } from '@tarojs/components'
-import { useLoad } from '@tarojs/taro'
-import './index.scss'
-import sunImg from '../../assets/image/sun.jpg';
+import { View, Image } from '@tarojs/components';
+import { useLoad } from '@tarojs/taro';
+import './index.scss';
 
 export default function Index() {
 
   useLoad(() => {
-    console.log('Page loaded.')
-  })
+    console.log('Page loaded.');
+  });
 
   return (
     <View>
@@ -21,5 +20,5 @@ export default function Index() {
         132
       </View>
     </View>
-  )
+  );
 }
